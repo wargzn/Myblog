@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Anders的空间</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      display: flex;
+    }
+    
+    .sidebar {
+      width: 200px;
+      background-color: #f1f1f1;
+      padding: 20px;
+    }
+    
+    .main {
+      flex: 1;
+      padding: 0 20px;
+    }
+    
+    header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    
+    h1 {
+      margin: 0;
+    }
+    
+    .profile {
+      margin-bottom: 20px;
+    }
+    
+    .profile-image {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 10px;
+    }
+    
+    .profile-name {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    
+    .profile-description {
+      font-style: italic;
+      color: #888;
+    }
+    
+    .articles {
+      margin-bottom: 40px;
+    }
+    
+    .article {
+      margin-bottom: 20px;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    .article-title {
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    
+    .article-date {
+      font-style: italic;
+      color: #888;
+      margin-bottom: 10px;
+    }
+    
+    .article-content {
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+  <div class="sidebar">
+    <div class="profile">
+      <img class="profile-image" src="changyong.png" alt="个人头像">
+      <h2 class="profile-name">你的名字</h2>
+      <p class="profile-description">心愿实验发起人</p>
+    </div>
+    <h2>其他选项</h2>
+    <ul>
+      <li><a href="#">关于我</a></li>
+      <li><a href="#">联系方式</a></li>
+      <li><a href="#">技术笔记</a></li>
+    </ul>
+  </div>
+  
+  <div class="main">
+    <header>
+      <h1>个人博客</h1>
+    </header>
+    
+    <div class="articles">
+      <div class="article">
+        <h2 class="article-title">心愿实验空房子场</h2>
+        <p class="article-date">发布日期：2023年7月1日</p>
+        <p class="article-content">
+          现场来了30人，发布了新产品。
+          非常开心昨晚大家的到来，一起完成了「心愿实验2.0」。本来计划现场邀请ai心愿助手和大家见面，不过由于设备和网络的原因没能如愿。于是我今天以「Barbara Sher女士」为原型，做了一个问答机器人，可以通过直接和Barbara Sher对话，说出内心的心愿和障碍，会在过程中得到行动建议和支持。欢迎尝试和体验
+        </p>
+      </div>
+      
+      <div class="article">
+        <h2 class="article-title">心愿实验国际场</h2>
+        <p class="article-date">发布日期：2023年7月5日</p>
+        <p class="article-content">
+          全程英文交流，【我的心愿】
+          和外国朋友顺畅地用英文交流
+          【为什么重要】
+          1、可以结交不同国家的朋友，是生命体验的拓展
+          2、多年学习英文但依然很难开口的遗憾
+          3、最近开始写代码，工作场景也会大量用到英文（ChatGPT：最好的编程语言是英语）
+          【障碍是什么】
+          1、心理障碍，不敢开口，害怕说不好
+          2、没时间学习和练习，感觉要花个一年半载的
+          3、缺少练习英语的环境，没有反馈
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
